@@ -1,8 +1,11 @@
-@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 
 * {
     box-sizing: border-box;
-    font-family: 'Hanna', sans-seirf;
+}
+
+div, p, a {
+    font-family: 'Jeju Gothic', sans-seirf;
 }
 
 body {
