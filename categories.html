@@ -12,7 +12,7 @@ permalink: /categories/
     {% for posts in category %}
       {% for post in posts %}
       <li>
-        <a class="tag-item-title" href="{{ post.url }}">{{post.title}}</a>
+        <a href="{{ post.url }}">{{post.title}}</a>
       </li>
       {% endfor %}
     {% endfor %}
