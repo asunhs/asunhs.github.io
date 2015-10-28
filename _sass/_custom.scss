@@ -12,8 +12,12 @@ header {
 }
 
 header > a {
-    color: #C83B4C;
+    color: #c83b4c;
     font-size: 11px;
+}
+
+header > a:hover, header > a:active {
+    color: #c83b4c;
 }
 
 .content {
@@ -45,6 +49,10 @@ article {
 
     header {
         text-align: center;
+    }
+    
+    header > a {
+        display: block;
     }
 
     .content {
