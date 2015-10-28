@@ -83,3 +83,9 @@ article {
         margin-left: 25%;
     }
 }
+
+@media (max-width:640px) {
+    .content {
+        padding: 15px;
+    }
+}
