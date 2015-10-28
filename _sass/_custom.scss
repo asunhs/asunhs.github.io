@@ -14,7 +14,6 @@ header {
 header > a {
     color: #c83b4c;
     font-size: 11px;
-    margin: 0 0 0 10px;
 }
 
 header > a:hover, header > a:active {
@@ -50,6 +49,10 @@ article {
 
     header {
         text-align: center;
+    }
+
+    header > a {
+        margin: 0 10px;
     }
 
     .content {
