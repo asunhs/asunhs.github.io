@@ -80,7 +80,7 @@ article {
     max-width: 1024px;
 }
 
-time {
+time, time > span {
     font-family: Lato, Calibri, Arial, sans-serif;
     font-size: 12px;
     color: #bbbbbb;
