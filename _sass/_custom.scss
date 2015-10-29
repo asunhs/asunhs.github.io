@@ -12,15 +12,12 @@ body {
     font-size: 15px;
 }
 
-article, h1, h2, time {
+h1 {
+    font-size: 20px;
     transition-delay: 0s;
     transition-duration: 0.2s;
     transition-property: all;
     transition-timing-function: ease;
-}
-
-h1 {
-    font-size: 20px;
 }
 
 h2 {
@@ -173,6 +170,9 @@ time {
 }
 
 @media (max-width:640px) {
+    h1 {
+        font-size: 18px;
+    }
     .content {
         padding: 20px 10px;
     }
