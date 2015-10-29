@@ -5,7 +5,7 @@ layout: default
 <div>
   {% for post in site.posts %}
     <article>
-      <span><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+      <span><time datetime="{{ post.date | date_to_xmlschema }}">Written on {{ post.date | date: "%B %d, %Y" }}</time></span>
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       
       <div class="entry">
