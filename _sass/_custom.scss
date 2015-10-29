@@ -5,15 +5,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-family: 'Jeju Gothic', sans-seirf;
 }
 
-body {
-    font-size: 15px;
-}
-
 article, h1 {
     transition-delay: 0s;
     transition-duration: 0.2s;
     transition-property: all;
     transition-timing-function: ease;
+}
+
+body {
+    font-size: 15px;
+    margin: 0;
+    background-color: #e8e8e8;
 }
 
 h1 {
@@ -32,13 +34,9 @@ h4 {
     font-size: 15px;
 }
 
-body {
-    margin: 0;
-    background-color: #e8e8e8;
-}
-
 header {
     padding: 25px;
+    line-height: 1.5em;
 }
 
 header > a {
@@ -48,6 +46,14 @@ header > a {
 
 header > a:hover, header > a:active {
     color: #c83b4c;
+}
+
+.site-name {
+    font-size: 24px;
+}
+
+.site-description {
+    font-size: 11px;
 }
 
 .content {
