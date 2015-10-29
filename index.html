@@ -15,8 +15,10 @@ layout: default
           {{ post.content }}
         {% endif %}
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      
+      <div class="more_wrapper">
+        <a href="{{ post.url }}" class="read-more">Read More</a>
+      </div>
     </article>
   {% endfor %}
 </div>
