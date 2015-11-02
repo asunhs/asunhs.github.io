@@ -81,6 +81,8 @@ header > a:hover, header > a:active {
 
 .highlight {
     box-shadow: none;
+    overflow: inherit;
+    overflow-x: scroll;
 }
 
 nav {
