@@ -79,6 +79,10 @@ header > a:hover, header > a:active {
     margin-top: 15px;
 }
 
+.highlight {
+    box-shadow: none;
+}
+
 nav {
     font-size: 15px;
 }
@@ -102,6 +106,16 @@ time, time > span {
     font-size: 12px;
     color: #bbbbbb;
     text-transform: uppercase;
+}
+
+strong, b {
+    font-style: normal;
+    color: #de7f1c;
+}
+
+em, i {
+    font-style: normal;
+    color: #9d9d9d;
 }
 
 .more_wrapper {
