@@ -167,8 +167,9 @@ div.tags ul {
 
     .excerpt {
         padding: 1px 10px;
-        background-color: #efefef;
         margin: 5px 0 20px 0;
+        background-color: #efefef;
+        border: 1px solid #dddddd;
     }
 }
 
@@ -256,5 +257,9 @@ div.tags ul {
     
     .date_prefix {
         display: none;
+    }
+
+    time, time > span {
+        display: block;
     }
 }
