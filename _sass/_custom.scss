@@ -93,7 +93,7 @@ header > a:hover, header > a:active {
     margin-top: 40px;
 }
 
-.title {
+.title, .title:hover, .title:active {
     color: #ae3a3a;
 }
 
@@ -164,10 +164,6 @@ ul.tags {
 
 div.tags ul {
     list-style-type: none;
-
-    li a {
-
-    }
 }
 
 
