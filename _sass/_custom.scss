@@ -93,6 +93,10 @@ header > a:hover, header > a:active {
     margin-top: 40px;
 }
 
+.title {
+    color: #ae3a3a;
+}
+
 nav {
     font-size: 15px;
 }
@@ -105,10 +109,6 @@ article {
     box-shadow: 0 3px 10px #e2e2e2;
     max-width: 1024px;
     line-height: 1.6em;
-}
-
-article > h1 {
-    color: #ae3a3a;
 }
 
 article a {
@@ -155,10 +155,18 @@ ul.tags {
 
     li {
         display: inline-block;
-        background-color: #ffffff;
+        background-color: #e2e2e2;
         padding: 3px 5px;
         margin: 0 2px;
         box-shadow: 0 3px 5px #bbb;
+    }
+}
+
+div.tags ul {
+    list-style-type: none;
+
+    li a {
+
     }
 }
 
