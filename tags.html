@@ -3,9 +3,9 @@ layout: default
 permalink: /tags/
 ---
 
-<ul>
+<ul class="tags">
 {% for tag in site.tags %}
-  <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+  <li>
     <a href="#{{ tag | first | slugize }}">
       {{ tag | first }}
     </a>
@@ -13,7 +13,7 @@ permalink: /tags/
 {% endfor %}
 </ul>
 
-<div>
+<div class="tags">
 {% for tag in site.tags %}
   <article>
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
