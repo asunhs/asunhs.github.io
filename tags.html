@@ -22,7 +22,7 @@ permalink: /tags/
       {% for post in site.tags[tag_name] %}
       <li>
         <a href="{{ post.url }}" class="title">{{post.title}}</a>&nbsp;&nbsp;<time datetime="{{ post.date | date_to_xmlschema }}"><span class="date_prefix">Written on </span>{{ post.date | date: "%B %d, %Y" }}</time>
-        <p>{{ post.excerpt }}</p>
+        <div class="excerpt">{{ post.excerpt }}</div>
       </li>
       {% endfor %}
     </ul>
