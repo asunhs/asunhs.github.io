@@ -148,7 +148,8 @@ em, i {
 
 
 
-$tag-image-size: 18px;
+$tag-image-size: 24px;
+$tag-inline-image-size: 18px;
 $tag-padding-size: 2px;
 
 ul.tags {
@@ -175,6 +176,7 @@ ul.tags {
         height: $tag-image-size;
         display: inline-block;
         vertical-align: middle;
+        margin-right: 3px;
         content: "";
     }
 }
@@ -187,6 +189,12 @@ ul.inline {
 
     li a {
         padding: 3px 5px;
+    }
+
+    &::before {
+        background-size: $tag-inline-image-size - $tag-padding-size;
+        width: $tag-inline-image-size;
+        height: $tag-inline-image-size;
     }
 }
 
