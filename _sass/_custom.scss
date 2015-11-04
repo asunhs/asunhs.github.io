@@ -154,7 +154,7 @@ em, i {
 ul.tags {
 
     list-style-type: none;
-    padding-left: 0;
+    padding: 25px 5px;
 
     li {
         display: inline-block;
@@ -168,7 +168,6 @@ ul.tags {
 div.tags ul {
 
     list-style-type: none;
-    padding: 25px 5px;
 
     .excerpt {
         padding: 1px 10px;
