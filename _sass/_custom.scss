@@ -158,12 +158,12 @@ ul.tags {
 
     li {
         display: inline-block;
-        background-color: #6babeb;
-        padding: 1px 8px;
         margin: 5px 2px;
 
         a {
             color: #ffffff;
+            background-color: #6babeb;
+            padding: 8px;
         }
     }
 }
@@ -173,8 +173,8 @@ ul.inline {
     padding: 0;
     margin-top: -15px;
 
-    li {
-        padding: 0 6px;
+    li a {
+        padding: 3px;
     }
 }
 
