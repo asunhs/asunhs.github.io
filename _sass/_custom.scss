@@ -148,7 +148,8 @@ em, i {
 
 
 
-$tag-image-size: 20px;
+$tag-image-size: 18px;
+$tag-padding-size: 2px;
 
 ul.tags {
 
@@ -168,10 +169,12 @@ ul.tags {
     }
 
     &::before {
-        background-image: url(/images/tag.png);
-        background-size: $tag-image-size $tag-image-size;
+        background: url(/images/tag.png) no-repeat $tag-padding-size $tag-padding-size;
+        background-size: $tag-image-size - $tag-padding-size;
         width: $tag-image-size;
         height: $tag-image-size;
+        display: inline-block;
+        vertical-align: middle;
         content: "";
     }
 }
