@@ -169,9 +169,10 @@ ul.tags {
 
     &::before {
         background-image: url(/images/tag.png);
-        background-size: $tag-image-size;
+        background-size: $tag-image-size $tag-image-size;
         width: $tag-image-size;
         height: $tag-image-size;
+        content: "";
     }
 }
 
