@@ -147,6 +147,9 @@ em, i {
 }
 
 
+
+$tag-image-size: 20px;
+
 ul.tags {
 
     list-style-type: none;
@@ -165,7 +168,10 @@ ul.tags {
     }
 
     &::before {
-        content: url(/images/tag.png);
+        background-image: url(/images/tag.png);
+        background-size: $tag-image-size;
+        width: $tag-image-size;
+        height: $tag-image-size;
     }
 }
 
