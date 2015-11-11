@@ -1,0 +1,14 @@
+Script
+https://script.google.com/macros/d/1fp2xocxVJGq_Z4XKSfSmo5l-lXvdv2koclC87EqoIQmvidrXdX-9hVCw/edit?uiv=2&mid=ACjPJvF9-05Za19xSDx1w08Xgp27mV1-1Ebglt_tTYggmxTt8BIVzdv_7js1YOnod388_DPUTv7tOM7TvhvLAyLX72PNDVHxevKHXbyFJ-MamHPAFE6I6TZU6bxOwm0Wt2ZEBGvWiQKOyLc&splash=yes
+
+Reference
+http://nubiz.tistory.com/538
+
+Authorization
+https://developers.google.com/apps-script/execution/rest/v1/scripts/run#authorization
+
+Execution API
+https://developers.google.com/apps-script/guides/rest/
+
+Client API?
+https://developers.google.com/api-client-library/javascript/
