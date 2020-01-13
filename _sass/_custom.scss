@@ -144,8 +144,27 @@ em, i {
 }
 
 img {
-    margin: 30px auto 50px auto;
     display: block;
+}
+
+img, table {
+    margin: 30px auto 50px auto;
+}
+
+table {
+    text-align: center;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #d3d3d3;
+    font-weight: bold;
+}
+
+table td, table th {
+    padding: 5px 10px;
+    border: 1px solid #444444;
 }
 
 .more_wrapper {
@@ -321,8 +340,7 @@ div.tags ul {
         margin-top: -22px;
     }
 
-    img {
+    img, table {
         margin: 20px auto 30px auto;
-        display: block;
     }
 }
