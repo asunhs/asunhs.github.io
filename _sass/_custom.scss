@@ -147,10 +147,10 @@ blockquote {
     border-left: #d1ce97 8px solid;
     padding: 16px 16px 16px 24px;
     background-color: #e8e8e8;
-}
 
-blockquote p {
-    margin: 0;
+    p, ul, ol {
+        margin: 0;
+    }
 }
 
 img {
@@ -165,16 +165,16 @@ table {
     text-align: center;
     border: 1px solid #444444;
     border-collapse: collapse;
-}
 
-table th {
-    background-color: #d3d3d3;
-    font-weight: bold;
-}
+    td, th {
+        padding: 5px 10px;
+        border: 1px solid #444444;
+    }
 
-table td, table th {
-    padding: 5px 10px;
-    border: 1px solid #444444;
+    th {
+        background-color: #d3d3d3;
+        font-weight: bold;
+    }
 }
 
 .more_wrapper {
