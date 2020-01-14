@@ -143,6 +143,16 @@ em, i {
     color: #9d9d9d;
 }
 
+blockquote {
+    border-left: #BAB99C 8px solid;
+    margin: 8px;
+    background-color: #FAF8D2;
+}
+
+blockquote p {
+    padding: 12px;
+}
+
 img {
     display: block;
 }
