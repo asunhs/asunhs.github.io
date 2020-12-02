@@ -248,15 +248,15 @@ div.tags ul {
 
     list-style-type: none;
 
+    .title {
+        font-size: 20px;
+    }
+
     .excerpt {
         padding: 1px 10px;
         margin: 5px 0 20px 0;
         background-color: #efefef;
         border: 1px solid #dddddd;
-
-        .title {
-            font-size: 20px;
-        }
 
         h1 {
             font-size: 20px;
@@ -315,6 +315,7 @@ div.tags ul {
     header {
         margin-top: 80%;
         text-align: right;
+        margin-bottom: 30px;
     }
     
     header > a {
